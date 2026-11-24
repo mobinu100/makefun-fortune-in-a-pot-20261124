@@ -1,6 +1,8 @@
 // Fortune in a Pot — make.fun entry.
 // A single kind, funny fortune for the houseplant on the windowsill,
 // written to /output/entry.txt (MAKEFUN_OUTPUT_DIR in the grader).
+// Sunlight does the heavy lifting; the pot just holds the fort.
+// The plant asked for a forecast; the window delivered the weather.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
